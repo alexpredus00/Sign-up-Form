@@ -1,0 +1,91 @@
+body {
+    height: 100vh;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #121212;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bannerSection img{
+    object-fit: cover;
+    display: block;
+    height: 100vh;
+    width: 100%;
+}
+
+.bannerSection {
+    float: left;
+    width: 40%;
+    height: 100vh;
+
+}
+
+
+.darkOverlay {
+    background-color: black;
+    height: 100vh;
+    width: 40%;
+    position: absolute;
+    opacity: 0.2;
+
+}
+
+.textOverlay {
+    display: flex;
+    background-color: black;
+    margin-top: 20vh;
+    height: 20vh;
+    width: 40%;
+    position: absolute;
+    opacity: 0.6;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.textOverlay img{
+    object-fit: contain;
+    width: 30%;
+    height: 60%;
+}
+
+.textOverlay h1 {
+    font-family: 'Exo', sans-serif;
+    object-fit: contain;
+    overflow: hidden;
+    color: #b30047;
+    text-shadow: 8px 2px 8px #FF0000;
+    font-size: 120px;
+}
+
+.neonLineTop {
+    right: 115vh;
+    bottom: 30.5vh;
+    width: 40%;
+    position: absolute;
+    opacity: 0.8;
+}
+
+.neonLineBottom {
+    right: 115vh;
+    bottom: 9.5vh;
+    width: 40%;
+    position: absolute;
+    opacity: 0.8;
+}
+
+.textSection {
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+    color: white;
+    width: 60%;
+    margin-top: 15vh;
+}
+
