@@ -2,7 +2,7 @@ body {
     height: 100vh;
     min-height: 100vh;
     margin: 0;
-    background-color: #121212;
+    background-image: linear-gradient(to left, #121212, #4d0019 35%);
 }
 
 .content {
@@ -82,10 +82,77 @@ body {
 .textSection {
     display: flex;
     flex-direction: column;
-
     text-align: center;
     color: white;
     width: 60%;
-    margin-top: 15vh;
+    margin-top: 10vh;
 }
 
+.formSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.formSection > div{
+    display: flex;
+    justify-content: center;
+    margin: 1.5vh 1vh 1.5vh 1vh;
+
+}
+
+.formSection > div > div {
+    margin: 0vh 5vh 0vh 5vh;
+    text-align: left;
+}
+
+
+
+input {
+    margin-top: 0.5vh;
+    background-color: white;
+    width: 30vh;
+    height: 4vh;
+    border-radius: 10px;
+    font-size: 1.7rem;
+    padding: 4px 20px;
+}
+
+h1 {
+    font-size: 75px;
+}
+
+p {
+    font-size: 22px;
+}
+
+.button {
+    margin-top: 5vh;
+    width: 30vh;
+    height: 10vh;
+    font-size: 46px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent; 
+    color: white; 
+    border: 4px solid #b30047;
+    border-radius: 16px;
+    font-weight: 200;
+}
+.button:hover {
+    outline: none;
+    border-color: white;
+    box-shadow: 0 0 10px white;
+}
+
+
+
+form.submitted input:invalid{
+    border: 2px solid black;
+    background-color: #ffb3d9;
+}
+
+.password_match {
+
+    color: #ff4d4d;
+}
