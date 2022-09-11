@@ -1,1 +1,1 @@
-# Sign-up-Form
+A registration page meant to help me get more familiar with form styling and validation.
