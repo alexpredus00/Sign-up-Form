@@ -22,7 +22,7 @@ body {
     float: left;
     width: 40%;
     height: 100vh;
-
+    box-shadow: 12px 0px 12px white;
 }
 
 
@@ -107,7 +107,6 @@ body {
 }
 
 
-
 input {
     margin-top: 0.5vh;
     background-color: white;
@@ -153,6 +152,34 @@ form.submitted input:invalid{
 }
 
 .password_match {
+      color: #ff4d4d;
+}
 
-    color: #ff4d4d;
+img {
+    pointer-events: none;
+}
+
+.logIn {
+    display: flex;
+    flex-direction: row;
+    float: left;
+    margin-top: 50px;
+    margin-left: 10%;
+}
+
+.logIn > div{
+
+}
+
+.logInLink{
+    margin-top: 24px;
+    margin-left: 12px;
+
+
+}
+
+a{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
 }
