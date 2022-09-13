@@ -144,8 +144,6 @@ p {
     box-shadow: 0 0 10px white;
 }
 
-
-
 form.submitted input:invalid{
     border: 2px solid black;
     background-color: #ffb3d9;
@@ -167,15 +165,9 @@ img {
     margin-left: 10%;
 }
 
-.logIn > div{
-
-}
-
 .logInLink{
     margin-top: 24px;
     margin-left: 12px;
-
-
 }
 
 a{
