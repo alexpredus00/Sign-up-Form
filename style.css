@@ -64,7 +64,7 @@ body {
     overflow: hidden;
     color: #b30047;
     text-shadow: 8px 2px 8px #FF0000;
-    font-size: 10rem;
+    font-size: 12vh;
 }
 
 .neonLineTop {
@@ -115,26 +115,26 @@ body {
 input {
     margin-top: 0.5vh;
     background-color: white;
-    width: 30vh;
-    height: 4vh;
+    width: 25vh;
+    height: 3vh;
     border-radius: 10px;
-    font-size: 1.7rem;
-    padding: 0.3rem 1.3rem;
+    font-size: 2.2vh;
+    padding: 0.6vh 2vh;
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 5vh;
 }
 
 p {
-    font-size: 1rem;
+    font-size: 2vh;
 }
 
 .button {
     margin-top: 5vh;
     width: 30vh;
     height: 10vh;
-    font-size: 46px;
+    font-size: 5vh;
     border: none;
     cursor: pointer;
     background-color: transparent; 
@@ -166,17 +166,21 @@ img {
     display: flex;
     flex-direction: row;
     float: left;
-    margin-top: 50px;
+    margin-top: 4vh;
     margin-left: 10%;
 }
 
 .logInLink{
-    margin-top: 24px;
-    margin-left: 12px;
+    margin-top: 2vh;
+    margin-left: 1vh;
 }
 
 a{
-    font-size: 20px;
+    font-size: 1.85vh;
     font-weight: 700;
     color: white;
+}
+
+label {
+    font-size: 1.5vh;
 }
